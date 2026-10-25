@@ -1,0 +1,718 @@
+{
+  "cesp_version": "1.0",
+  "name": "duke_nukem_jsj",
+  "display_name": "Duke Nukem (Jon St. John)",
+  "version": "1.0.0",
+  "description": "Duke Nukem one-liners (Jon St. John) as peon-ping notifications. Time to kick ass.",
+  "author": {
+    "name": "anonymous",
+    "github": "unknown"
+  },
+  "license": "LicenseRef-Unlicensed-Fan-Pack",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/hail-to-the-king-baby.mp3",
+          "label": "Hail to the King, Baby",
+          "sha256": "5ee5d4c13bcd24409b3b65418cb85e8fea52f50ba554c5a826f964cc4a4d5a74"
+        },
+        {
+          "file": "sounds/im-back.mp3",
+          "label": "I'm Back!",
+          "sha256": "ba8b607364359ae94d2ce99f11fbcb87f91c5d8e2863f2329e0717641f55f5b4"
+        },
+        {
+          "file": "sounds/lets-rock.mp3",
+          "label": "Let's Rock",
+          "sha256": "6f7fe15f3eb9abd50cd094c6cbf2d7bfb1383952d1ad7cfadd6ce3323dcaee2d"
+        },
+        {
+          "file": "sounds/its-ass-kickin-time.mp3",
+          "label": "It's Ass Kickin' Time!",
+          "sha256": "7f0ca2b1b507a8399e633dbe7a5826855685fbbaaf8a4ceb37283f3772c592b8"
+        },
+        {
+          "file": "sounds/my-names-duke-nukem.mp3",
+          "label": "My Name's Duke Nukem",
+          "sha256": "a08c770c814c027d8db97b083e6d54b7a8a54333793e73ec70f42a70f8827b66"
+        },
+        {
+          "file": "sounds/i-was-born-ready.mp3",
+          "label": "I Was Born Ready",
+          "sha256": "858b73115d7995045c4675d36e79a0a04382c154bc8b24f876925d4ee03f8d6a"
+        },
+        {
+          "file": "sounds/let-the-games-begin.mp3",
+          "label": "Let the Games Begin!",
+          "sha256": "1d8762f747cd44f15a6903ee7c86785c2b7c44937d17ddb764677ead673858f4"
+        },
+        {
+          "file": "sounds/welcome-to-earth-bitch.mp3",
+          "label": "Welcome to Earth... Bitch!",
+          "sha256": "53b2c1498fbcce5b3c2ee8ddf8097f9a25b3b972b5d5f8d6b6a356291b366b46"
+        },
+        {
+          "file": "sounds/whos-your-daddy-now.mp3",
+          "label": "Who's Your Daddy Now",
+          "sha256": "0dd1b08976decf213f91471bb5aa740737526e936efc6123ce588b22d26b02c1"
+        },
+        {
+          "file": "sounds/lock-n-load.mp3",
+          "label": "Lock 'n' Load!",
+          "sha256": "f2ae6a7b6eeb9d237b0ec4b69e30ce1fd44aea057ca4a65bc48b94e4f58ec500"
+        },
+        {
+          "file": "sounds/lets-get-this-show-on-the-road.mp3",
+          "label": "Let's Get This Show on the Road",
+          "sha256": "5172fd3eae24b38b00d187f6f05011a7fb215661b56e40f480c27d0c54a06060"
+        },
+        {
+          "file": "sounds/its-game-time.mp3",
+          "label": "It's Game Time!",
+          "sha256": "7da8eb5e8246685700bf0476b8c5e6f8136a76ea765de217b8b03d38eabc7d87"
+        },
+        {
+          "file": "sounds/ready-for-action.mp3",
+          "label": "Ready for Action",
+          "sha256": "057bf2eb589ef19659814a6b76fad3e5804202c1ef047ee0b1039069fb183018"
+        },
+        {
+          "file": "sounds/time-to-crash-this-party.mp3",
+          "label": "Time to Crash This Party",
+          "sha256": "238f880aabc7fd4a0c98e7e0597e93eaebf9e73602863eebbd7b2ab99e65f3e8"
+        },
+        {
+          "file": "sounds/here-we-go-again.mp3",
+          "label": "Here We Go Again",
+          "sha256": "b90e17ea34fb5ccde8a92e7f2379ad2052ea05b6063f696a31dd3dbeccdf2219"
+        },
+        {
+          "file": "sounds/power-on-baby.mp3",
+          "label": "Power On, Baby",
+          "sha256": "021423f2d9e2ba77964b81efa046cb095eb8126ec4a46c4f6f8c55cdb7c41da2"
+        },
+        {
+          "file": "sounds/we-have-ignition.mp3",
+          "label": "We Have Ignition!",
+          "sha256": "f7ebb49011c258d783f672ebb6ec93f40e4bce6f20c96bcb2a49595691f7bcac"
+        },
+        {
+          "file": "sounds/im-ready-for-some-action-now.mp3",
+          "label": "I'm Ready for Some Action... Now!",
+          "sha256": "940e1c1c3c134ee6b96ab04d51152fd518fd2d727a79772a1730b4d8c9e280e8"
+        },
+        {
+          "file": "sounds/rock-and-roll.mp3",
+          "label": "Rock and Roll",
+          "sha256": "166bfd844e4d3eb827416916bbf32c3830921123070764c9c6e630bab36b3f43"
+        },
+        {
+          "file": "sounds/lets-do-this.mp3",
+          "label": "Let's Do This!",
+          "sha256": "3feb38fe5d566f66e9b2e1202db56fe4525e731181b05b85f502c877be5493b1"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/im-on-it.mp3",
+          "label": "I'm on It",
+          "sha256": "5d2c44ebca65b61c9723fef323903208b608ffced6593cac2d965b6a27f43845"
+        },
+        {
+          "file": "sounds/will-do.mp3",
+          "label": "Will Do!",
+          "sha256": "9c865b5d8eeacde0e8302464a1053d96884a9fe99d0b8704a14cdf4ac7371f59"
+        },
+        {
+          "file": "sounds/you-got-it.mp3",
+          "label": "You Got It!",
+          "sha256": "2166a0be18a6b7fd7b31a46feaa8c3bc2b2fe6745bbe22be54fa78fbc4c1e411"
+        },
+        {
+          "file": "sounds/groovy.mp3",
+          "label": "Groovy!",
+          "sha256": "5032826f64359f2fa264a91e8a7350371117a5391f5fb2146321cafb5fcd5991"
+        },
+        {
+          "file": "sounds/piece-of-cake.mp3",
+          "label": "Piece of Cake",
+          "sha256": "a266ffdd73c759cab2e74f4b760631bd533c36180460c3259b9552b73569bbe3"
+        },
+        {
+          "file": "sounds/we-got-this.mp3",
+          "label": "We Got This!",
+          "sha256": "c5c00518d28250caf5ad686a85dbb923ae0d1de23ae0d790f4425488ce0a9953"
+        },
+        {
+          "file": "sounds/i-get-shit-done.mp3",
+          "label": "I Get Shit Done!",
+          "sha256": "8da1b69c07713c8a10290f5e15b3f3c5f74a1c2b69967e8a1814eb6f308c000b"
+        },
+        {
+          "file": "sounds/ask-and-you-shall-recieve.mp3",
+          "label": "Ask, and You Shall Recieve",
+          "sha256": "b2dc9a27b3d1cf9fea7693f26fa8ee0f16bf87a8c5f4250df1a575fd55c5c65f"
+        },
+        {
+          "file": "sounds/order-up.mp3",
+          "label": "Order Up!",
+          "sha256": "07f865e678bb77f6ad8a1b591ea32acca5541618884a7a773de063ab6cdb0e00"
+        },
+        {
+          "file": "sounds/alright-lets-go.mp3",
+          "label": "Alright! Let's Go!",
+          "sha256": "05b63a9f7d1f1f4b147a353ba4287c8f9bdba466caf3fc95ba36f0fe9ca075c0"
+        },
+        {
+          "file": "sounds/lets-do-it.mp3",
+          "label": "Let's Do It!",
+          "sha256": "e69ae031e09c2dbb540e3a16eeccb86d80314a150a144ad85caa764908d364a9"
+        },
+        {
+          "file": "sounds/im-on-a-mission-now.mp3",
+          "label": "I'm on a Mission Now",
+          "sha256": "ba39c2873e999dbf75f95aec533e05803621f9c02816e63b18c76feb92d922b5"
+        },
+        {
+          "file": "sounds/no-time-to-waste.mp3",
+          "label": "No Time to Waste",
+          "sha256": "7ff950c65e4cf508ef7fa1f8849fe77a5124e6d7b79dff5ec07881d4178fe816"
+        },
+        {
+          "file": "sounds/im-with-ya.mp3",
+          "label": "I'm with Ya!",
+          "sha256": "5a2c37212873608ac571ee28397a624a05b8af055803e5e6aecde35724740a63"
+        },
+        {
+          "file": "sounds/time-to-get-moving.mp3",
+          "label": "Time to Get Moving",
+          "sha256": "b5edbc552217a864c4ebcdda4e39322cdb67bff1bbbc84fc6fd67595803af401"
+        },
+        {
+          "file": "sounds/yeah-piece-of-cake.mp3",
+          "label": "Yeah, Piece of Cake",
+          "sha256": "bd3b98ea1261d703875ed39831965bcb3abf7fae0622fafa58b38df7d1e29e28"
+        },
+        {
+          "file": "sounds/bitchin.mp3",
+          "label": "Bitchin'!",
+          "sha256": "59ef98a69af4f496a202d4db7dae0869a67a26dbb65bff351ca7d1496a267a3f"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/too-easy.mp3",
+          "label": "Too Easy!",
+          "sha256": "4e26f12d7bd8f306ee6d8959c2687177f7dc40a864a21257d98061292e2f59c5"
+        },
+        {
+          "file": "sounds/thats-how-we-do-it.mp3",
+          "label": "That's How We Do It!",
+          "sha256": "246485fb974c40efa1a918d9dfef2dd07fa1e64a34919bdb5caa71b41bf1bf79"
+        },
+        {
+          "file": "sounds/score-one-for-the-big-guy.mp3",
+          "label": "Score One for the Big Guy",
+          "sha256": "3b0c66787c501b2c00a2d2fde59729f3ba8f782696563aa1a60e7809d129f9d1"
+        },
+        {
+          "file": "sounds/i-came-i-saw-i-kicked-ass.mp3",
+          "label": "I Came, I Saw, I Kicked Ass",
+          "sha256": "4cf7ebdf9a97fc844a58880eb693c81d957e3f18a44f545f81856d2dfe07d94b"
+        },
+        {
+          "file": "sounds/damn-im-good.mp3",
+          "label": "Damn, I'm Good",
+          "sha256": "6202a94369aec3e23ec9d22293d6281d0ab9c5cda7dc91e81a098ce75b83224d"
+        },
+        {
+          "file": "sounds/looks-like-the-best-man-won.mp3",
+          "label": "Looks Like the Best Man Won",
+          "sha256": "68b37bcdf9593f9b2ef9bafb82bffdfd376d3ea0928d1bae142d7e5249684f5d"
+        },
+        {
+          "file": "sounds/duke-wins-fatality.mp3",
+          "label": "Duke Wins! Fatality!",
+          "sha256": "77858d15dc7ac9c781f8b41c84cb8e3ab0b6a564df47fd528e5024997d6f8e22"
+        },
+        {
+          "file": "sounds/super-combo.mp3",
+          "label": "Super Combo!",
+          "sha256": "23f0aeec934d45de4f2d407c75429cefa75ea82d5449d318a03209d931e20202"
+        },
+        {
+          "file": "sounds/headshot.mp3",
+          "label": "Headshot!",
+          "sha256": "de81f6436e72d8d08ba73ec86e2a2b3b3dbb3c2e48365b7a47aa8d1360412fa6"
+        },
+        {
+          "file": "sounds/owned.mp3",
+          "label": "Owned",
+          "sha256": "1d3ef9ebe34a9c0f1f4e924a09fe65f97bedaaa0c9e78bf1454b36e8ea9599e3"
+        },
+        {
+          "file": "sounds/good-game.mp3",
+          "label": "Good Game!",
+          "sha256": "2e944ceac385ac1abb5ff6d43a10815830f8016cbc07326e2a9ffcbd404a04a3"
+        },
+        {
+          "file": "sounds/well-that-was-fun.mp3",
+          "label": "Well! That was Fun",
+          "sha256": "a972247211c4e403f793b87a6e82ff210252e715767d16d9c11a3739a1a405e7"
+        },
+        {
+          "file": "sounds/another-clone-bites-the-dust.mp3",
+          "label": "Another Clone Bites the Dust",
+          "sha256": "562836a1a30acb3a14f0f35172e386df2992364fcbaea5cc7e4875b98bcb22e0"
+        },
+        {
+          "file": "sounds/looks-like-this-ones-history.mp3",
+          "label": "Looks Like This One's History",
+          "sha256": "852f9ee7cecabfa58b8d20f21ad7af94c6a9e417234053a3d8dc70050819ab8b"
+        },
+        {
+          "file": "sounds/takin-care-of-business-duke-style.mp3",
+          "label": "Takin' Care of Business... Duke Style",
+          "sha256": "cabc28d4feb8315ce74cde9b071dd822ad10fa33e95974772d0675c9dc98ff75"
+        },
+        {
+          "file": "sounds/extra-ball.mp3",
+          "label": "Extra Ball!",
+          "sha256": "08a07ecf24bc88bf2b370d4407bbf928e402e76ea491cf9423fdfb37701afd1b"
+        },
+        {
+          "file": "sounds/triple-combo.mp3",
+          "label": "Triple Combo!",
+          "sha256": "38d25b59665af61cb297bb71eb15e14c55763e0f283584a7e3d26b6fd920afc7"
+        },
+        {
+          "file": "sounds/damn-im-lookin-good.mp3",
+          "label": "Damn! I'm Lookin' Good!",
+          "sha256": "09544289b9f98909e7edcf7ff9813f8560e2deae4f0b0e608f8adc1ccffecd45"
+        },
+        {
+          "file": "sounds/this-games-as-good-as-won.mp3",
+          "label": "This Game's as Good as Won",
+          "sha256": "1a6f9cfc62784be4665cc908703c17806274863875a0f3482acc83701497f07d"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/damn-it-to-hell.mp3",
+          "label": "Damn It to Hell",
+          "sha256": "bf8d425e812be0716586d1a203b208ff65d1807c647a4b07495d25ac048878ad"
+        },
+        {
+          "file": "sounds/oh-come-on.mp3",
+          "label": "Oh, COME ON!",
+          "sha256": "c3fa31bf6bd1dec19bee3b38376db089e2fd1d0c8acbc65d1fca7e1451110013"
+        },
+        {
+          "file": "sounds/shits-going-south-fast.mp3",
+          "label": "Shit's Going South Fast",
+          "sha256": "5024a4576faab79adbba80f6d18b2ea21c1ac2fb76f441483bbfdbc82165144e"
+        },
+        {
+          "file": "sounds/well-it-looks-like-the-crap-has-hit-the-fan.mp3",
+          "label": "Well, It Looks Like the Crap has Hit the Fan",
+          "sha256": "a7731a7bd95715b3e9ecb90e58c2feb6ad87aaf973fbd3208666316776041b0e"
+        },
+        {
+          "file": "sounds/maybe-i-spoke-too-soon.mp3",
+          "label": "Maybe I Spoke Too Soon",
+          "sha256": "bd0b848ff2bd6be3c3abd8ce8791096d9e7c127ee285b14697b47700d586f68e"
+        },
+        {
+          "file": "sounds/epic-fail.mp3",
+          "label": "Epic Fail",
+          "sha256": "6f72694c40758b4cb3eb95e03c74e5478f44a7f4cf0732e7639a28333a7416b4"
+        },
+        {
+          "file": "sounds/what-the-fuck.mp3",
+          "label": "What the Fuck!",
+          "sha256": "ac260cc30a2c0d709f121480dff2088a46f2d6fa130e77063cec9a40ce359cce"
+        },
+        {
+          "file": "sounds/piece-of-shit.mp3",
+          "label": "Piece of Shit!",
+          "sha256": "962f30957d8425a023a24113e02e5950110af20397a008adbae0afdd78d76f35"
+        },
+        {
+          "file": "sounds/uh-oh-this-is-not-good.mp3",
+          "label": "Uh Oh, This is Not Good!",
+          "sha256": "8552b528cd2b8df7d5cb48630ad86d293be24d709436fb72aa780c9361de7b89"
+        },
+        {
+          "file": "sounds/ive-got-balls-of-fail.mp3",
+          "label": "I've Got Balls of Fail",
+          "sha256": "73b697562fb78f243604bbe8aa048e7f4eb19cfeaf6f2604724e12225767a12e"
+        },
+        {
+          "file": "sounds/god-damn-it.mp3",
+          "label": "God Damn It!",
+          "sha256": "68dfaa312c08bf12798a4009d8701516ca475412701d7e2fcbb5a8ae9732cd01"
+        },
+        {
+          "file": "sounds/looks-like-im-in-a-world-of-shit.mp3",
+          "label": "Looks Like I'm in a World of Shit",
+          "sha256": "a747e3510256e8f20b47191c0eee01445d5fcbe32c239076480f1f736060f536"
+        },
+        {
+          "file": "sounds/ohhh-crap.mp3",
+          "label": "Ohhh Crap",
+          "sha256": "87288634e04a2ae63573d6f8d1f14c2b2236d5f98315ee5d3d8d479526380303"
+        },
+        {
+          "file": "sounds/oops-this-sucks.mp3",
+          "label": "Oops! This Sucks",
+          "sha256": "32be8ce8beab83b5580ebfd85432e2c34ac4323f22e4d4f0404533796a1f06b2"
+        },
+        {
+          "file": "sounds/okay-now-theyve-gone-too-far.mp3",
+          "label": "Okay, Now They've Gone Too Far",
+          "sha256": "574f897a3c8e7d58c5d8f97b5fe818151c81a5a93dc8e212597409b2acdf6cbe"
+        },
+        {
+          "file": "sounds/same-shit-different-day.mp3",
+          "label": "Same Shit, Different Day",
+          "sha256": "411ca4229831ffdced89fd19e887d67ad75f6b6314558534dd65f1b5ff51dc7b"
+        },
+        {
+          "file": "sounds/looks-like-youre-fucked.mp3",
+          "label": "Look's Like You're... Fucked!",
+          "sha256": "7b0198b3bb32e5ee4f88d57ee9d77af561287643ac9eaaf15bab195291d42657"
+        },
+        {
+          "file": "sounds/great-shit-on-my-boots.mp3",
+          "label": "Great. Shit on My Boots",
+          "sha256": "25b26e6aec894c8e0e0417d802772abda1873b40a76319e866a5ee5df7054560"
+        },
+        {
+          "file": "sounds/time-for-the-shit-to-hit-the-fan.mp3",
+          "label": "Time for the Shit to Hit the Fan",
+          "sha256": "69fdfe3c659c244fcec68ed4055b9ddefba8484d09a833d67a3436c2ab19e4a0"
+        },
+        {
+          "file": "sounds/damn-what-a-waste.mp3",
+          "label": "Damn, What a Waste",
+          "sha256": "f7cbe4b4411c3de2c05282dae25324a3d37d07d9f0d44af0aa3203d283bd409f"
+        },
+        {
+          "file": "sounds/what-the-hell-was-that.mp3",
+          "label": "What the Hell was That",
+          "sha256": "ad7aa92768d88e7264abe777b920b4caa8ace4500d04eef057dc243b0a7af215"
+        },
+        {
+          "file": "sounds/son-of-a-bitch.mp3",
+          "label": "Son of a Bitch!",
+          "sha256": "5b480c49bb77eeb426b84a294ab37b3befa975e930689fa3f8519a9983bfe38d"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/hey-genius-whatre-you-waitin-for.mp3",
+          "label": "Hey, Genius! What're You Waitin' for",
+          "sha256": "8c3209e5f8953a1fb4885129baf8689cd2d4a06e0c5d81d10477ef1d86e4480a"
+        },
+        {
+          "file": "sounds/whats-the-hold-up.mp3",
+          "label": "What's the Hold Up",
+          "sha256": "85cdc29ee4d867ec771bcf08c4779a8382266aaf473f77534e1298d24460e8cd"
+        },
+        {
+          "file": "sounds/hey-watch-it.mp3",
+          "label": "Hey! Watch It!",
+          "sha256": "658f5c7a262cee4a7e5b9291c15197f71263a0cc6fb7f60907e781c1ea24eb4f"
+        },
+        {
+          "file": "sounds/decisions-decisions.mp3",
+          "label": "Decisions, Decisions",
+          "sha256": "89dc891d40093e63174a34871b6f5d059aaa51788a925c811d6ef16e8c83e8dd"
+        },
+        {
+          "file": "sounds/now-hear-me.mp3",
+          "label": "Now, Hear Me",
+          "sha256": "f4aa2df351c4bc6002449331a803c62f862fc363edc047f81403d0c2b147fb2a"
+        },
+        {
+          "file": "sounds/pop-quiz-hot-shot.mp3",
+          "label": "Pop Quiz, Hot Shot",
+          "sha256": "397fe21739a0b88e3f10c56035886d7f31723ca56940ce56b0b4403c24487bda"
+        },
+        {
+          "file": "sounds/what-dya-have-to-say-about-that.mp3",
+          "label": "What D'ya Have to Say About That",
+          "sha256": "0de70ab56556665dadfeba50d17c2801eb7c73d3b0b4d780472fef96d664ff0f"
+        },
+        {
+          "file": "sounds/whos-next.mp3",
+          "label": "Who's Next",
+          "sha256": "f39de5b3b15ca9c6a1cc4187de4847497e57694a40e66532225715b9fb60b565"
+        },
+        {
+          "file": "sounds/show-me-the-good-stuff.mp3",
+          "label": "Show Me the Good Stuff",
+          "sha256": "519cd39a5d1071c96ac866a5c425a9b6f787a167e404f3bb6017746ed5037ec8"
+        },
+        {
+          "file": "sounds/hey-lets-get-a-move-on-shall-we.mp3",
+          "label": "Hey, Let's Get a Move on, Shall We",
+          "sha256": "ee1c11a332425c08e0ca7c632e3200d7a97c6b6d7a94628466dbe64d9adbe725"
+        },
+        {
+          "file": "sounds/what-are-ya-waitin-for-christmas.mp3",
+          "label": "What are Ya Waitin' For - Christmas",
+          "sha256": "e0fe4773eede0b329aa39e4aaa9f6da7b282bfddd493206ec4bc2c1cf96df47a"
+        },
+        {
+          "file": "sounds/hey-bug-eyes.mp3",
+          "label": "Hey, Bug Eyes!",
+          "sha256": "d9e44601750c71c5594533e1e6e3ca8b0e7dcf1bfa08db9377e37321639df480"
+        },
+        {
+          "file": "sounds/hey-where-do-you-think-youre-goin.mp3",
+          "label": "Hey. Where Do You Think You're Goin'",
+          "sha256": "da8ee8470ac33d390d0f35823cf5334db00c1913b105ef96e99ca98ae15cc79f"
+        },
+        {
+          "file": "sounds/wanna-know-what-i-predict.mp3",
+          "label": "Wanna Know What I Predict",
+          "sha256": "7619ace5d04cee48ef9a3f67f9dc3004afcf5e3046a239b09d26ccdc1cc947c0"
+        },
+        {
+          "file": "sounds/your-problem.mp3",
+          "label": "Your Problem",
+          "sha256": "7d6cba84561cdfe3062ca4d9fce3f43a5c0cea82fa16e013ef3d818f72001473"
+        },
+        {
+          "file": "sounds/whats-new-pussycat.mp3",
+          "label": "What's New, Pussycat",
+          "sha256": "9a1af1f562f24a6e2bdc079123c34c535624c5ac176383d9a87dfacbf8504788"
+        },
+        {
+          "file": "sounds/get-back-to-work-you-slacker.mp3",
+          "label": "Get Back to Work, You Slacker!",
+          "sha256": "aec528a61ca7e8db9159acb46badb7f7df68597a1f6a217b392982d89aa390c0"
+        },
+        {
+          "file": "sounds/quit-wastin-my-time.mp3",
+          "label": "Quit Wastin' My Time",
+          "sha256": "1d46bc77b59cb97546dc33526053ed764d8a9fde792e2566311813aa45a8d548"
+        },
+        {
+          "file": "sounds/hey-do-the-letters-f-o-mean-anything-to-you.mp3",
+          "label": "Hey, Do the Letters F.O. Mean Anything to You",
+          "sha256": "5d19f280ad2580d99858907db51091a4549b818cdddc932b2b8f097fbce29d76"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/im-runnin-outta-time.mp3",
+          "label": "I'm Runnin' Outta Time!",
+          "sha256": "e149f056428b9ab06962559a9c73708651a5b33f620522d18a8a6c37ffa4421a"
+        },
+        {
+          "file": "sounds/im-all-out.mp3",
+          "label": "I'm All Out",
+          "sha256": "df4a2f4e6c16049707aff868074cf96a692ace89d259eb7d02bb81b024c98754"
+        },
+        {
+          "file": "sounds/no-more-left.mp3",
+          "label": "No More Left",
+          "sha256": "1eb149633376a551feaab47c9bf9a0287d181a1bd7b2842914e6c085b9d34638"
+        },
+        {
+          "file": "sounds/man-im-burnin-up-in-here.mp3",
+          "label": "Man! I'm Burnin' Up in Here!",
+          "sha256": "b96a60cf3e1d19bc2a1536307bb52c1c2737953833b9d5c1b0ecd6d411ae459a"
+        },
+        {
+          "file": "sounds/im-about-to-blow-a-fuse.mp3",
+          "label": "I'm About to Blow a Fuse",
+          "sha256": "02207da58f70c3ed80c3580e21890968674a4e13c719f5499dda1172f054aacf"
+        },
+        {
+          "file": "sounds/uh-oh-i-better-hurry-up.mp3",
+          "label": "Uh Oh... I Better Hurry Up",
+          "sha256": "b80fad49261298e89a2ebe4fd8774dd59f5664581b6beaf6fef641eeda0e933b"
+        },
+        {
+          "file": "sounds/i-think-you-need-some-downtime.mp3",
+          "label": "I Think You Need Some Downtime",
+          "sha256": "d65f93a5448743f657503348d9e3918c21e283f35f9de6092f27b43298076358"
+        },
+        {
+          "file": "sounds/time-for-some-r-r.mp3",
+          "label": "Time for Some R&R",
+          "sha256": "be37581c9e15867e000ba458bcf74ae1957ad944005325f113998e881710aa40"
+        },
+        {
+          "file": "sounds/take-it-easy.mp3",
+          "label": "Take It Easy",
+          "sha256": "59ff74be7bb1d6239925299a1a456261bcf9642bf8d70ca7a0d4bee249bac7be"
+        },
+        {
+          "file": "sounds/theres-no-time.mp3",
+          "label": "There's No Time!",
+          "sha256": "720c4a31f1d1421b409d6b842906f81fcbbcb0f2341b6b05e295016d098fe443"
+        },
+        {
+          "file": "sounds/whoa-this-is-getting-close.mp3",
+          "label": "Whoa, This is Getting Close",
+          "sha256": "7746879b5503d3d6f7830636ee8d7c3b0f00e1491477449c2949089ddaecbe1f"
+        },
+        {
+          "file": "sounds/it-wont-budge.mp3",
+          "label": "It Won't Budge",
+          "sha256": "a9c9a266e084ec321b1391cc39fd0aacdbd4237b7ebbc18e897767fd8b10e718"
+        },
+        {
+          "file": "sounds/ooh-this-is-heavy-even-for-me.mp3",
+          "label": "Ooh! This is Heavy! Even for Me!",
+          "sha256": "7c75fa91ba1d440720c8a773db490f5b60a77454b357801fc7559ba6b244be0d"
+        },
+        {
+          "file": "sounds/i-aint-got-time-to-bleed.mp3",
+          "label": "I Ain't Got Time to Bleed",
+          "sha256": "8f16cf9eabb0488e12b7dbd661a275be0eb203cfc7831a0978e1f3e3f472e302"
+        },
+        {
+          "file": "sounds/damn-its-hotter-than-hell-in-here.mp3",
+          "label": "Damn! It's Hotter than Hell in Here!",
+          "sha256": "53d66348d07eb4ffcf8d473a1a46e1367821fe30c5b124dd11927abd9c1a36cf"
+        },
+        {
+          "file": "sounds/im-racking-up-frequent-flyer-miles-here.mp3",
+          "label": "I'm Racking Up Frequent Flyer Miles Here!",
+          "sha256": "96ea3cd54b2b0bd3d8ecbcd73198a503fbaa5df581b7f9393b29938f553d433b"
+        },
+        {
+          "file": "sounds/this-things-a-train-wreck-waitin-to-happen.mp3",
+          "label": "This Thing's a Train Wreck Waitin' to Happen",
+          "sha256": "b49e199dca64b0c0c0cdfd55f57b89b6e818c29094f92e9521849e714f8d0da9"
+        },
+        {
+          "file": "sounds/this-is-taking-forever.mp3",
+          "label": "This is Taking Forever!",
+          "sha256": "b2471433f238ebf541098834f464fbae2874e38a82acc2cedb486f2cb49c08e4"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/shut-up.mp3",
+          "label": "Shut UP!",
+          "sha256": "13c0781566bd56b4f7cb26d22781520098a2029bcc22481ba00dc09bd0551f26"
+        },
+        {
+          "file": "sounds/sit-down-and-shut-up.mp3",
+          "label": "Sit Down and Shut Up!",
+          "sha256": "e9db56b3ac5d4343ce57f79620e74d2dbeb24b4d5c6de5f2433b9c3097064299"
+        },
+        {
+          "file": "sounds/piss-off.mp3",
+          "label": "Piss Off",
+          "sha256": "5de7b26bc92f67456c7335fc7be6aa056d17f823a8cbfe1571ce908c4e0d7364"
+        },
+        {
+          "file": "sounds/youre-pissin-me-off.mp3",
+          "label": "You're Pissin' Me Off",
+          "sha256": "bf867849db807f6311421d877c56d482e5024a554130a405d254e3b1fc04174a"
+        },
+        {
+          "file": "sounds/quit-bleedin-pussy.mp3",
+          "label": "Quit Bleedin', Pussy!",
+          "sha256": "8a364677e22f1390970b12509a79f9edf8a794d5bbe61fc1f76d2b35592a756c"
+        },
+        {
+          "file": "sounds/stop-eyeballin-me.mp3",
+          "label": "Stop Eyeballin' Me!",
+          "sha256": "e361c9dbdf438734aa7905be2dfc7772c10b0c93f15ef0f5d02c13b9b05e740a"
+        },
+        {
+          "file": "sounds/that-oughtta-shut-you-up.mp3",
+          "label": "That Oughtta Shut You Up",
+          "sha256": "5a5dd757a38d996e6731711dd404865f726392f6b4b2d82b9ee40f6b57c213f1"
+        },
+        {
+          "file": "sounds/annoying-little-bastards.mp3",
+          "label": "Annoying Little Bastards!",
+          "sha256": "dc9860b07ec38fe12f9ab556697a3985cd22eea796fda049a33a82472a6d650a"
+        },
+        {
+          "file": "sounds/hey-asshole.mp3",
+          "label": "Hey, Asshole",
+          "sha256": "f644fc4600ab05d3131e956d9bcd4e7a9214fe731f721dfcdd545878afd85adb"
+        },
+        {
+          "file": "sounds/shut-your-hole.mp3",
+          "label": "Shut Your Hole!",
+          "sha256": "2c3981b7bcc10163a43cf6e3021410307541c9bd5778e780e30139bf325f73e5"
+        },
+        {
+          "file": "sounds/put-that-thing-away.mp3",
+          "label": "Put That Thing Away!",
+          "sha256": "4f457f1bdc3cd497ecd4eba599ec1c85cc5e03740b560ab76213657c661188c5"
+        },
+        {
+          "file": "sounds/you-guys-suck.mp3",
+          "label": "You Guys Suck!",
+          "sha256": "a07b22f186c7c41152353f1b78387f23d7128251c5b51f10e48f9d3e109cc3c4"
+        },
+        {
+          "file": "sounds/what-a-pussy.mp3",
+          "label": "What a Pussy!",
+          "sha256": "b8a367d98debb092bc034187f9cf5a5d7d163a789b4469ac906a754661130f1e"
+        },
+        {
+          "file": "sounds/this-really-pisses-me-off.mp3",
+          "label": "This Really Pisses Me Off",
+          "sha256": "9bcfe4dd6a8a78f7666576b62a218e5590ff24f208e86f9f58b9821f38e7938a"
+        },
+        {
+          "file": "sounds/now-im-really-pissed-off.mp3",
+          "label": "Now I'm REALLY Pissed Off",
+          "sha256": "7c504f7f2333b68aef78987933e9be6c7cbf11e3cfdc924ee245696ce6b0e0a4"
+        },
+        {
+          "file": "sounds/damn-that-was-annoying.mp3",
+          "label": "Damn, That Was Annoying",
+          "sha256": "9701b3b6d4d6b6db1c01c78a6d94e43f464db2e6d7d2f5d2b68278792331b752"
+        },
+        {
+          "file": "sounds/dont-get-your-panties-all-in-a-bunch.mp3",
+          "label": "Don't Get Your Panties All in a Bunch",
+          "sha256": "fb857d58ae79150fe3e5fcbb8856ab0095839f5be7bb5e54581426405151ef8c"
+        },
+        {
+          "file": "sounds/shut-the-fuck-up.mp3",
+          "label": "Shut... the Fuck UP!",
+          "sha256": "dd8afd60d94cadb409176257202b7c88bd1973edb0ea92e2cb67c949b13ed071"
+        },
+        {
+          "file": "sounds/back-already.mp3",
+          "label": "Back Already",
+          "sha256": "cfb3443ba984af462a76d963380dfcf54842b179224bf02e9747e1a83310eb00"
+        },
+        {
+          "file": "sounds/you-dont-get-it.mp3",
+          "label": "You Don't Get It",
+          "sha256": "be8718efa255654b305270b661884049e13f26821635b50dbc9ad6281fc16bc1"
+        }
+      ]
+    }
+  }
+}
